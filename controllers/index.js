@@ -6,7 +6,7 @@ const homeRoutes = require('./home-routes');
 
 router.use('/', homeRoutes);
 router.use('/api', apiRoutes);
-// router.use('/food', foodRoutes);
+// router.use('/api/food', foodRoutes);
 // router.use('/api/users', userRoutes);
 
 module.exports = router;
